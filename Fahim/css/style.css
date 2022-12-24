@@ -1,0 +1,71 @@
+body
+{
+  background-image: url("tech1.jpg");
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf0f1;
+}
+
+.container
+{
+  perspective: 320px;
+}
+
+.btn
+{
+  display: block;
+  margin: 40px 0;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #00a8ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+
+btn2:hover {
+  transform: rotateX(-15deg);
+  box-shadow: 0 -15px 15px #00a8ff;
+}
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 40;
+    overflow: hidden;
+    background-color: #c5def0;
+  }
+  
+  li {
+    float: left;
+    width: 150px;
+  }
+  img {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  
+    padding: 5px;
+    width: 150px;
+  }
+  .card {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: #fff;
+  }
+  .card_outer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }
+  
+ 
+ 

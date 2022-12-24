@@ -1,0 +1,41 @@
+body{
+  margin-top: 20px;
+  background-color: azure;
+}
+.main{
+  padding: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.topber{
+  background-color: cadetblue;
+  overflow: hidden;
+}
+.topber a{
+  float: right;
+ color: cornflowerblue;
+ text-align: center;
+ padding: 20px 26px;
+ text-decoration: none;
+ font-size: 26px;
+}
+.sidebar{
+  background-color: cyan;
+  color: aliceblue;
+  height: 100%;
+}
+.sidebar a{
+  margin-left: 10px;
+  display: block;
+  color: aliceblue;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.card{
+  position: relative;
+  display: relative;
+  flex-direction: column;
+}
+.content{
+ background-color:whitesmoke;
+}

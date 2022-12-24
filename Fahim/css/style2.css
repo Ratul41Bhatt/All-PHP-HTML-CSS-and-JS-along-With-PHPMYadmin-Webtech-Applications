@@ -1,0 +1,38 @@
+.btn
+{
+  display: block;
+  margin: 40px 0;
+  width: 90px;
+  height: 40px;
+  border: none;
+  background-color: #00a8ff;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+}
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 40;
+    overflow: hidden;
+    background-color: #c5def0;
+  }
+  
+  li {
+    float: left;
+    width: 150px;
+  }
+  .card {
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background: rgb(47, 122, 176);
+  }
+  .card_outer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+  }

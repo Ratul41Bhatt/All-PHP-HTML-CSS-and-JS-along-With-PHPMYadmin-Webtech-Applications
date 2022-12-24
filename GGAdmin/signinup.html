@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <title>Signup</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@500&family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+   
+
+</head>
+<body>
+  <div class="main">
+
+
+      <div class="container a-container" id="a-container">
+         <form class="form" id="a-form" method="" action="">
+             <h2 class="form__title title">
+             Create Account 
+             </h2>
+             <div class="form__icons">
+                 <img class="form__icon" src="images/facebook.svg" alt="facebook">
+                 <img class="form__icon" src="images/linkedin.svg" alt="linkedin">
+                 <img class="form__icon" src="images/twitter.svg" alt="twitter">
+             </div>
+             <span class="form__span"> or use email for registration</span>
+             <input class="form__input" type="text" placeholder="Name">
+             <input type="text"class="form__input" placeholder="First Name" name="first_name">
+             <input type="text" class="form__input" placeholder="Last Name" name="last_name">
+             <input type="password" class="form__input" placeholder="Password" name="u_pass">
+             <input type="email" class="form__input" placeholder="Email" name="u_email" >
+             <select class="form__input" name="u_country">
+                <option disabled>Select your Country</option>
+                <option>Bangladesh</option>
+                <option>United States of America</option>
+                <option>India</option>
+                <option>Japan</option>
+                <option>UK</option>
+                <option>France</option>
+                <option>Germany</option>
+            </select>
+            <select class="form__input" name="u_gender">
+                <option disabled>Select your Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Others</option>
+            </select>
+            <input type="date" class="form__input" placeholder="Email" name="u_birthday">
+            <button class="form__button button submit">SIGN UP</button>
+         </form>
+      </div>
+      
+        <div class="container b-container" id="b-container">
+            <form class="form" id="b-form" action="" method="">
+                <h2 class="form__title title"> Sign in to Gracious Giver</h2>
+
+                <div class="form__icons">
+                    <img class="form__icon" src="images/facebook.svg" alt="facebook">
+                    <img class="form__icon" src="images/linkedin.svg" alt="linkedin">
+                    <img class="form__icon" src="images/twitter.svg" alt="twitter">
+                </div>
+                <span class="form__span">or use email for account</span>
+                <input type="email" class="form__input" placeholder="Email" name="u_email" >
+                <input type="password" class="form__input" placeholder="Password" name="u_pass">
+                <a class="form__link">Forgot Your Password?</a>
+                <button class="form__button button submit">SIGN IN</button>
+            </form>
+        </div>
+     
+        <div class="switch" id="switch-cnt">
+         <div class="switch__circle"></div>
+         <div class="switch__circle switch__circle--t"></div>
+
+         <div class="switch__container" id="switch-c1">
+             <h2 class="switch__title title">Welcome Back!</h2>
+             <p class="switch__description description">
+                 To keep connected with us please login with your personal info
+             </p>
+             <button class="switch__button button switch-btn">SIGN IN</button>
+         </div>
+
+         <div class="switch__container is-hidden" id="switch-c2">
+            <h2 class="switch__title title">Hello Frined!</h2>
+            <p class="switch__description description">
+              Enter your personal details and start journey with us 
+            </p>
+            <button class="switch__button button switch-btn">SIGN UP</button>
+        </div>
+
+        </div>
+
+  </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

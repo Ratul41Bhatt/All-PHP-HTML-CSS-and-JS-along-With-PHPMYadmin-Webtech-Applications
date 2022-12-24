@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Example</title>
+    <link rel="stylesheet" type="text/css" href="a.css">
+    <!-- Internal CSS -->
+    <style>
+        .c1 {
+            color: brown;
+        }
+        /*#i1 {
+            color: red;
+        }*/
+        /*h1 {
+            color: deeppink;
+        }*/
+        h4 {
+            color: red;
+            font-size: 32px; /*this will execute*/
+        }
+    </style>
+</head>
+<body>
+
+    <!-- id vs class -->
+    <h1 class="c1">Hello CSS 1</h1>
+
+    <!-- uncomment h1 style from internal and test again -->
+    <h1 id="i1">Hello CSS 2</h1>
+
+    <!-- Test it -->
+    <!-- <h1 id="i1" class="c1">Hello CSS 2</h1> -->
+
+    <h1 class="c1">Hello CSS 3</h1>
+
+    <!-- designed with inline css -->
+    <h1 style="color:red;font-family: sans-serif;">Hello CSS H1</h1>
+
+    <!-- designed with internal css -->
+    <h2>Hello CSS H2</h1>
+
+    <!-- designed with external css -->
+    <h3>Hello CSS H3</h3>
+
+    <!-- priority: inline css -->
+    <h4 style="color: blue;">Hello CSS H4</h4>
+
+</body>
+</html>
